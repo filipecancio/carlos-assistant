@@ -1,21 +1,8 @@
-from chatterbot.trainers import ListTrainer
-from chatterbot import ChatBot
+from bot import CarlosBot
 
-bot = ChatBot('TW Chat Bot')
-
-conversa = ['Oi', 'Olá', 'Tudo bem?', 'Tudo ótimo', 
-			'Você gosta de programar?', 'Sim, eu programo em Python']
-
-treiner = ListTrainer(bot)
-treiner.train(conversa)
-
-#bot.set_trainer(ListTrainer)
-#bot.train(conversa)
+bot = CarlosBot()
 
 while True:
     pergunta = input("Usuário: ")
-    resposta = bot.get_response(pergunta)
-    if float(resposta.confidence) > 0.5:
-        print('TW Bot: ', resposta)
-    else:
-        print('TW Bot: Ainda não sei responder esta pergunta')
+    resposta = bot.ask(pergunta)
+    print(resposta)
