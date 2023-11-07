@@ -21,28 +21,36 @@
             "resposta": "Tem sim, tem preferência de horário ou de cabelereiro?"
         },
         {
-            "mensagens": ["Quais tipos de cortes voces fazem?"],
-            "resposta": ""
+            "mensagens": ["Quais tipos de cortes voces fazem?", "tipos de cortes", "tipos de corte", "tipos de corte voces fazem"],
+            "resposta": "realizamos todos os tipos de cortes, undercut, social, moicano.. Você pode trazer uma foto de referência se quiser. Veja também algum dos cortes presentes no nosso instagram @CarlosBarbearia."
         },
         {
-            "mensagens": ["Qual o horário de atendimento?"],
-            "resposta": "horário comercial"
+            "mensagens": ["Qual o horário de atendimento?", "horário de atendimento", "horario de atendimento", "horario de funcionamento", "funcionamento", "qual horário?"],
+            "resposta": "Atendemos de segunda a sexta das 8h às 18h e aos sábados das 8h às 12h."
         },
         {
-            "mensagens": ["Voces aceitam pix?"],
-            "resposta": "sim, sim aceitamos pix"
+            "mensagens": ["Voces aceitam pix?", "pix", "aceitam pix?"],
+            "resposta": "sim, sim aceitamos pix. Aceitamos também cartão de crédito, débito e dinheiro."
         },
         {
             "mensagens": ["Vendem água e outros produtos?"],
             "resposta": "temos água, refrigerante e tudo mais"
         },
         {
-            "mensagens": ["Quantos clientes faltam para o barbeiro x?"],
-            "resposta": "nao temos nenhuma barbeiro x"
+            "mensagens": ["Quantos clientes faltam para o barbeiro Jonatas?", "tem cliente na frente do Jonatas?", "tem cliente na frente do Jonatas", "tem cliente na frente do Jonatas?", "tem cliente na frente do Jonatas?", "tem cliente pro Jonatas?","o Jonatas está livre?"],
+            "resposta": "O Jonatas está livre, pode vir agora mesmo"
         },
         {
-            "mensagens": ["Posso agendar com o barbeiro x?"],
-            "resposta": "por enquanto nao temos agendamento"
+            "mensagens": ["Posso agendar com o barbeiro Jonatas?", "quais os horários do Jonatas?", "quais os horários do Jonatas"],
+            "resposta": "Pode sim, o Jonatas trabalha às terças e quintas das 8h às 18h."                                  
+        },
+        {
+            "mensagens": ["Quantos clientes faltam para o barbeiro Pedro?", "tem cliente na frente do Pedro?", "tem cliente na frente do Pedro", "tem cliente na frente do Pedro?", "tem cliente na frente do Pedro?", "tem cliente pro Pedro?","o Pedro está livre?"],
+            "resposta": "O Pedro está com a agenda quase lotada essa semana, mas tem um horário livre sexta às 16h."
+        },
+        {
+            "mensagens": ["Posso agendar com o barbeiro Pedro?", "quais os horários do Pedro?", "quais os horários do Pedro"],
+            "resposta": "O Pedro trabalha sexta das 8h às 18h e sábado das 8h às 12h."
         }
     ]
 }
