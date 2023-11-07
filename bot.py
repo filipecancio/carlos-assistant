@@ -35,6 +35,6 @@ class CarlosBot():
     def ask(self, question):
         response = self.bot.get_response(question)
         if float(response.confidence) > MINIMAL_CONFIDENCE:
-            return f'🤖 Carlos bot: {response}'
+            return response
         else:
-            return '🤖 Carlos bot: Ainda não sei responder esta pergunta'
+            return 'Ainda não sei responder esta pergunta'

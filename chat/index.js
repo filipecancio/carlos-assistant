@@ -18,7 +18,7 @@ getRespostaRobo = (msg) => {
     });
 
     resposta.on("end", () => {
-      io.emit('chat message', "IFBA: " + data);
+      io.emit('chat message', "🤖 Carlos bot: " + data);
     });
 
   })  
@@ -26,7 +26,7 @@ getRespostaRobo = (msg) => {
 
 io.on('connection', function (socket) {
   socket.on('chat message', function (msg) {
-    io.emit('chat message', "você: " + msg);
+    io.emit('chat message', "Você: " + msg);
     getRespostaRobo(msg);
   });
 });
