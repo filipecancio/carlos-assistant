@@ -15,6 +15,34 @@
         {
             "mensagens": ["boa noite"],
             "resposta": "Boa noite, sou Carlos, seu atendente de barbearia. Como posso te ajudar?"
+        },
+        {
+            "mensagens": ["Há disponibilidade de corte?","disponibilidade de corte","Há disponibilidade","tem corte?"],
+            "resposta": "Tem sim, tem preferência de horário ou de cabelereiro?"
+        },
+        {
+            "mensagens": ["Quais tipos de cortes voces fazem?"],
+            "resposta": ""
+        },
+        {
+            "mensagens": ["Qual o horário de atendimento?"],
+            "resposta": "horário comercial"
+        },
+        {
+            "mensagens": ["Voces aceitam pix?"],
+            "resposta": "sim, sim aceitamos pix"
+        },
+        {
+            "mensagens": ["Vendem água e outros produtos?"],
+            "resposta": "temos água, refrigerante e tudo mais"
+        },
+        {
+            "mensagens": ["Quantos clientes faltam para o barbeiro x?"],
+            "resposta": "nao temos nenhuma barbeiro x"
+        },
+        {
+            "mensagens": ["Posso agendar com o barbeiro x?"],
+            "resposta": "por enquanto nao temos agendamento"
         }
     ]
 }

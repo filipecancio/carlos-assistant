@@ -2,7 +2,7 @@ from general_functions import  getJson
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
 
-CONFIANCA_MINIMA = 0.70
+MINIMAL_CONFIDENCE = 0.5
 
 class CarlosBot():  
     def __init__(self):
@@ -34,7 +34,7 @@ class CarlosBot():
 
     def ask(self, question):
         response = self.bot.get_response(question)
-        if float(response.confidence) > 0.5:
+        if float(response.confidence) > MINIMAL_CONFIDENCE:
             return f'🤖 Carlos bot: {response}'
         else:
             return '🤖 Carlos bot: Ainda não sei responder esta pergunta'
