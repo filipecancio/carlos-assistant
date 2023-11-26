@@ -5,15 +5,15 @@
             "resposta": "Olá, sou Carlos, seu atendente de barbearia. Como posso te ajudar?"    
         },
         {
-            "mensagens": ["bom dia"],
+            "mensagens": ["bom dia", "Bom dia","dia"],
             "resposta": "Bom dia, sou Carlos, seu atendente de barbearia. Como posso te ajudar?"
         },
         {
-            "mensagens": ["boa tarde"],
-            "resposta": "Bom tarde, sou Carlos, seu atendente de barbearia. Como posso te ajudar?"
+            "mensagens": ["boa tarde", "Boa tarde","tarde"],
+            "resposta": "Boa tarde, sou Carlos, seu atendente de barbearia. Como posso te ajudar?"
         },
         {
-            "mensagens": ["boa noite"],
+            "mensagens": ["boa noite", "Boa noite","noite"],
             "resposta": "Boa noite, sou Carlos, seu atendente de barbearia. Como posso te ajudar?"
         },
         {
