@@ -8,7 +8,7 @@ app = Flask(__name__)
 def ask_bot(mensagem):
     resposta = bot.ask(mensagem)
 
-    return resposta
+    return str(resposta)
 
 if __name__ == "__main__":
     app.run()
